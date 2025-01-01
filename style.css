@@ -1,0 +1,128 @@
+h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+li {
+    padding: 5px 0;
+    border-top: 1px dashed #CCC;
+}
+
+input,
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+/* Container for the page layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+/* Interactive segment (top section) */
+.interactive-segment {
+    background-color: #c4cfce;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.interactive-segment h1 {
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+/* Line between sections */
+.divider {
+    margin: 10px 0;
+    border-top: 1px solid #9ba09f;
+}
+
+.form-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Connection form: Align input and button */
+.connection-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.connection-form input {
+    height: 40px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #787c7b;
+}
+
+.connection-form button {
+    font-size: 14px;
+    cursor: pointer;
+    height: 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #787c7b;
+}
+
+#sendForm label {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+#sendForm input[type="file"] {
+    margin-bottom: 10px;
+}
+
+#sendForm input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #787c7b;
+}
+
+/* Message segment (bottom section) */
+.message-segment {
+    background-color: #c4cfce;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200%;
+    height: 300px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+/* Centering the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
