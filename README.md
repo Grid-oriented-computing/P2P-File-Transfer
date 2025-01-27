@@ -82,12 +82,10 @@ Ensure you have the following installed on your system:
 ## Screenshots
 
 ### Main Interface
-![Screenshot of Main Interface](path/to/screenshot1.png)
+![Screenshot of Main Interface](mainInterface.png)
 
-### File Transfer in Progress
-![Screenshot of File Transfer](path/to/screenshot2.png)
-
-> Replace `path/to/screenshot1.png` and `path/to/screenshot2.png` with the actual paths to your screenshots.
+### File Transfer
+![Screenshot of File Transfer](fileTransfer.png)
 
 ---
 
