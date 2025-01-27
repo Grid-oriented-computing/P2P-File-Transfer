@@ -85,8 +85,6 @@ async function downloadFile(url, filename, decryptionKey, socket) {
       };
 
       socket.emit("download-link", filePackage);
-
-      //socket.emit("file-transfer-complete", filePackage); // Notify sender that file has been received
     });
   });
 }
@@ -189,7 +187,7 @@ io.on('connection', function (socket) {
 
     P2P_socket.on("publicKey", (receivedKey) => {
       var secretKey = key.server.computeSecret(receivedKey, null, 'hex');
-      console.log("secret = " + secretKey);
+      console.log("secret = " + secretKey + "\n");
       clientSecrets.set(P2P_socket.id, secretKey);
       P2P_socket.emit("returnPublicKey", key.server.getPublicKey());
     });

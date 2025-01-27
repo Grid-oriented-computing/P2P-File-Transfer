@@ -50,7 +50,7 @@ form.addEventListener('click', function (e) {
         addMessage(`Connected on port ${input.value}`);
         var msg = CryptoJS.TripleDES.encrypt(input.value, key).toString();
         //console.log(`encrypted chat message: ${msg}`);
-        socket.emit('client', input.value);             //pošljemo port
+        socket.emit('client', input.value);             // send connecting port
         input.value = '';
         document.getElementById("input").setAttribute("disabled", "");
     }

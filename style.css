@@ -109,11 +109,12 @@ label {
     background-color: #c4cfce;
     border: 1px solid #ccc;
     padding: 20px;
-    width: 200%;
+    width: 150%;
     height: 300px;
     overflow-y: auto;
     box-sizing: border-box;
     border-radius: 20px;
+    word-wrap: break-word;
 }
 
 /* Centering the entire page */
